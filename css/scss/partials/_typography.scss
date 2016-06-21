@@ -1,0 +1,89 @@
+/* ================================ TYPOGRAPHY =======================================*/
+
+
+@font-face {
+    font-family: 'humanst521_lt_btlight';
+    src: url('fonts/hum521l-1-webfont.eot');
+    src: url('../fonts/hum521l-1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hum521l-1-webfont.woff2') format('woff2'),
+         url('../fonts/hum521l-1-webfont.woff') format('woff'),
+         url('../fonts/hum521l-1-webfont.ttf') format('truetype'),
+         url('../fonts/hum521l-1-webfont.svg#humanst521_lt_btlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'humanst521_btroman';
+    src: url('../fonts/hum521n-1-webfont.eot');
+    src: url('../fonts/hum521n-1-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/hum521n-1-webfont.svg#humanst521_btroman') format('svg'),
+         url('../fonts/hum521n-1-webfont.woff2') format('woff2'),
+         url('../fonts/hum521n-1-webfont.woff') format('woff'),
+         url('../fonts/hum521n-1-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: $header-text-color;
+    font-weight: $font-weight-medium;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: $medium-title;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+ .masthead h1 {
+    font-size: $masthead-title;
+    font-weight: $font-weight-medium;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px #666;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    left: 2.5%;
+  } 
+
+
+h2.small-title {
+  font-size: $body-text;
+  padding-bottom: 8px;
+  margin: 0;
+  }   
+
+p {
+    font-size: $body-text;
+    color: $body-text-color;
+    font-weight: 300;
+    margin: 0 0 16px 0;
+}
+
+
+/* ------------- Type components ----------------- */
+
+.large-title {
+    font-size: $large-title;
+}
+
+strong {
+    color: #333;
+   font-weight: $font-weight-medium;
+}
+
+
+a {
+    font-size: $body-text;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

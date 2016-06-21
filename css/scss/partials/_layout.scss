@@ -1,0 +1,81 @@
+/* ================================ LAYOUT =======================================*/
+
+#site-wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: $wrapper-background;
+    border: 10px solid #fff;
+  }
+
+.masthead {
+    background-color: $header-bg-color;
+    width: 100%;
+    height: 192px;
+    position: relative;
+  }
+
+footer {
+    background-color: $footer-bg-color; 
+    width: 100%;
+    height: 384px;
+    position: relative;
+  }
+
+.footer-contact-holder {
+    width: 100%;
+    height: 212px;
+    background-color: #3a3a42;
+    position: top;
+  }
+
+.page-content {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+article {
+  @include line-break;
+  @include container-margin-bottom
+  }
+
+.site-intro, .featured-content-home {
+  @include line-break;
+}
+
+/* -------------------------------- layout components -------------------------------- */
+
+
+.intro-text {
+    width: 100%;
+  }
+
+.featured-article-home {
+  border: none;
+}
+ 
+
+.featured-article-home img {
+  margin-right: 12px;
+  border: none;
+}
+
+.featured-article-home p {
+  padding-right: 12px;
+}
+
+.cpt-container img, .cpt-single img {
+  margin-right: 12px;
+}
+
+.temp-height {
+  min-height: 800px;
+  }
+
+.contributors {
+  margin-bottom: 16px;
+}  
+
+.cpt-single {
+  border: none;
+}

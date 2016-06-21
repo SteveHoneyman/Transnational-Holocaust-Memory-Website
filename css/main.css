@@ -1,0 +1,293 @@
+/*
+ * Main CSS for Transnational Holocaust Memory theme
+ * @author Steve Honeyman
+ * @version 2
+*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'humanst521_lt_btlight';
+  background-color: #ebebeb;
+  line-height: 1.3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.group:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* ================================ TYPOGRAPHY =======================================*/
+@font-face {
+  font-family: 'humanst521_lt_btlight';
+  src: url("fonts/hum521l-1-webfont.eot");
+  src: url("../fonts/hum521l-1-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hum521l-1-webfont.woff2") format("woff2"), url("../fonts/hum521l-1-webfont.woff") format("woff"), url("../fonts/hum521l-1-webfont.ttf") format("truetype"), url("../fonts/hum521l-1-webfont.svg#humanst521_lt_btlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'humanst521_btroman';
+  src: url("../fonts/hum521n-1-webfont.eot");
+  src: url("../fonts/hum521n-1-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hum521n-1-webfont.svg#humanst521_btroman") format("svg"), url("../fonts/hum521n-1-webfont.woff2") format("woff2"), url("../fonts/hum521n-1-webfont.woff") format("woff"), url("../fonts/hum521n-1-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+.masthead h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px #666;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 2.5%;
+}
+
+h2.small-title {
+  font-size: 1.6rem;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #777;
+  font-weight: 300;
+  margin: 0 0 16px 0;
+}
+
+/* ------------- Type components ----------------- */
+.large-title {
+  font-size: 2.4rem;
+}
+
+strong {
+  color: #333;
+  font-weight: 400;
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ================================ NAVIGATION =======================================*/
+nav {
+  position: relative;
+  width: 97.5%;
+  height: auto;
+  background-color: #3a3a42;
+  padding-left: 2.5%;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: light;
+  text-transform: uppercase;
+  padding-top: 16px;
+  padding-right: 12px;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+/* ------------------ toggle --------------- */
+/* ================================ LAYOUT =======================================*/
+#site-wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 10px solid #fff;
+}
+
+.masthead {
+  background-color: #c9c8ce;
+  width: 100%;
+  height: 192px;
+  position: relative;
+}
+
+footer {
+  background-color: #c9c8ce;
+  width: 100%;
+  height: 384px;
+  position: relative;
+}
+
+.footer-contact-holder {
+  width: 100%;
+  height: 212px;
+  background-color: #3a3a42;
+  position: top;
+}
+
+.page-content {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+article {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.site-intro, .featured-content-home {
+  border-bottom: 1px solid #ccc;
+}
+
+/* -------------------------------- layout components -------------------------------- */
+.intro-text {
+  width: 100%;
+}
+
+.featured-article-home {
+  border: none;
+}
+
+.featured-article-home img {
+  margin-right: 12px;
+  border: none;
+}
+
+.featured-article-home p {
+  padding-right: 12px;
+}
+
+.cpt-container img, .cpt-single img {
+  margin-right: 12px;
+}
+
+.temp-height {
+  min-height: 800px;
+}
+
+.contributors {
+  margin-bottom: 16px;
+}
+
+.cpt-single {
+  border: none;
+}
+
+img.wp-post-image {
+  float: left;
+  margin-bottom: 16px;
+}
+
+/* ================================ OVERRIDES (temp) =======================================*/
+.mobile {
+  display: none;
+}
+
+h1 > a {
+  font-size: 2.2rem;
+  color: #444;
+}
+
+/* ================================ MEDIA QUERIES =======================================*/
+@media only screen and (max-width: 480px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    float: none;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+/* -------------------- 768px and above ---------------------- */
+@media only screen and (max-width: 767px) {
+  .featured-article-home {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+/* -------------------- 800px and above ---------------------- */
+@media only screen and (min-width: 800px) {
+  .intro-text {
+    width: 66.66%;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .intro-call-to-action {
+    padding: 0 0 0 24px;
+  }
+
+  .featured-article-home {
+    height: 180px;
+  }
+
+  /* -------------------  nav bar display on ------------- */
+  nav {
+    display: block;
+    height: 50px;
+  }
+
+  nav li {
+    float: left;
+  }
+}
+/*------------- end query ---------------*/
+
+/*# sourceMappingURL=main.css.map */
